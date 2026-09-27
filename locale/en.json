@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Model Picker",
+    "description": "Searchable, curated composer model picker with a Plugins page to show, hide, and pin models, plus live provider refresh and model discovery."
+  }
+}
