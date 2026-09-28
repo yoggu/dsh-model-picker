@@ -4,20 +4,20 @@ Searchable DSH Web composer model picker with a **Plugins → Model Picker** pag
 
 ## Requirements
 
-DSH 0.1.7 or newer, the `web` profile, and Node.js `^22.19.0` or `>=24.0.0` for source development.
+DSH 0.1.7 or newer, including 0.2.x, the `web` profile, and Node.js `^22.19.0` or `>=24.0.0` for source development.
 
 ## Install
 
 Install the tagged GitHub release into your DSH Web profile:
 
 ```sh
-dsh plugin --profile web add 'https://github.com/yoggu/dsh-model-picker.git#v0.1.0'
+dsh plugin --profile web add 'https://github.com/yoggu/dsh-model-picker.git#v0.1.1'
 ```
 
 Or download the source and link the local checkout. Install its dependencies first; a linked package resolves them from its own directory:
 
 ```sh
-git clone --branch v0.1.0 --depth 1 https://github.com/yoggu/dsh-model-picker.git
+git clone --branch v0.1.1 --depth 1 https://github.com/yoggu/dsh-model-picker.git
 cd dsh-model-picker
 pnpm install
 dsh plugin --profile web add "link:$(pwd)"
